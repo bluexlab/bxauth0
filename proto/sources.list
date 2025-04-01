@@ -1,0 +1,4 @@
+# protocol buffer source list
+# <repo> <path>
+# e.g.
+# navyx/bluex-protocol bluex_errors/error.proto

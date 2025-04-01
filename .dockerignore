@@ -1,0 +1,14 @@
+# i.e. https://jasonstitt.com/gitignore-whitelisting-patterns
+# Ignore everything in the root
+/*
+
+# Allow files and folders with a pattern starting with !
+!*.sh
+!/cmd/
+!/config/
+!/migrations/
+!/pkg/
+!/proto/
+!/test/
+!go.mod
+!go.sum

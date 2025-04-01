@@ -1,0 +1,22 @@
+# i.e. https://jasonstitt.com/gitignore-whitelisting-patterns
+# Ignore everything in the root
+/*
+
+# Allow files and folders with a pattern starting with !
+!*.sh
+!.dockerignore
+!.gitignore
+!.gitlab-ci.yml
+!/cmd/
+!/config/
+!/docs/
+!/migrations/
+!/pkg/
+!/proto/
+!/test/
+!/tools/
+!Dockerfile
+!Makefile
+!README.md
+!go.mod
+!go.sum
